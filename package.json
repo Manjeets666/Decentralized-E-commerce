@@ -4,7 +4,7 @@
   "description": "",
   "engines": {
     "node": "8.x"
-  }
+  },
   "dependencies": {
     "@fleekhq/fleek-storage-js": "^1.0.17",
     "antd": "^3.3.2",
