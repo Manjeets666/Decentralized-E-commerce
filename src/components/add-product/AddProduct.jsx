@@ -13,7 +13,7 @@ import {
 } from 'antd';
 import ipfsAPI from 'ipfs-api';
 import * as productActionsCreator from '../../actions/products';
-import { IPFS_HOST, IPFS_PORT, IPFS_GATEWAY_PORT, FLEEK_API_KEY, FLEEK_API_SECRET } from '../../config';
+// import { IPFS_HOST, IPFS_PORT, IPFS_GATEWAY_PORT, FLEEK_API_KEY, FLEEK_API_SECRET } from '../../config';
 import styles from './add-product.scss';
 
 import fleek from '@fleekhq/fleek-storage-js'; 
@@ -22,7 +22,6 @@ const { Item: FormItem } = Form;
 const { TextArea } = Input;
 const { Option } = Select;
 const { Dragger } = Upload;
-const ipfs = ipfsAPI(IPFS_HOST, IPFS_PORT);
 
 class AddProduct extends React.Component {
   static propTypes = {
@@ -81,8 +80,8 @@ class AddProduct extends React.Component {
     const reader = new FileReader();
     reader.onloadend = async () => {
       const input = {
-        apiKey: '0i7UJtXUC/6NJpbfgakp+g==',
-        apiSecret: '/E0N9m+cI9Ly9dNL+7FWpe9zL938Q1Zbt27/C+y5I/g=',
+        apiKey: 'EknxombQdMv/ekhUSI+LlA==',
+        apiSecret: '2ASLP2S70oWB8bx5aHR7NG4/NUOM5sUHd2Vz+EA39P0=',
         key: `file-${timestamp}`,
         data: Buffer.from(reader.result),
       };
