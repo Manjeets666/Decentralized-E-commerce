@@ -57,6 +57,7 @@
     "webpack-merge": "^4.1.2"
   },
   "scripts": {
+    "start": "node index.jsx"
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --open --config webpack.dev.js"
   },
