@@ -1,1 +1,1 @@
-web:node webpack.prod.js
+web:node src/index.js
