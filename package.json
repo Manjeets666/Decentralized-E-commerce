@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "16.x"
+    "node": "15.x"
   },
   "dependencies": {
     "@fleekhq/fleek-storage-js": "^1.0.17",
