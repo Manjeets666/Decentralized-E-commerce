@@ -1,9 +1,9 @@
 {
-  "name": "decentralize-commerce",
+  "name": "decentralized-E-commerce",
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "15.x"
+    "node": "8.x"
   },
   "dependencies": {
     "@fleekhq/fleek-storage-js": "^1.0.17",
@@ -60,6 +60,6 @@
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --open --config webpack.dev.js"
   },
-  "author": "Glory Olusola",
+  "author": "Manjeet Singh",
   "license": "MIT"
 }
